@@ -191,8 +191,6 @@ def check(email, sifre, ticket, randstr):
         print(Fore.RED + f"[x] Email: {email} | Pass: {sifre}")
         calismayan += 1
 
-    os.system(f"title APEX | Succes: {calisan} | FAİL {calismayan}")
-
 
 def get_tokens():
     global captcha_tokens_list
